@@ -1,5 +1,6 @@
-.body{
-    background-color: bisque;
+body{
+    background-color: rgb(175, 156, 156);
+
 
 }
 
@@ -7,14 +8,13 @@
 .top{
      
      background-color: rgb(197, 178, 113);
-     display:  fixed;
+ 
      border-top-left-radius: 100px;
      border-bottom-left-radius:100px ;
-     font-display: inline;
-   
+
      
- 
 }
+
 .sub1{
     background-color: rgb(14, 55, 170);
     margin-right: 300px;
@@ -64,10 +64,11 @@
 
 }
 .div3 table ,th,td{
-   border: 1px solid black;
-   width: 694px;
-   min-width: auto;
+   border: 1px solid rgba(19, 18, 18, 0.486);
+   width: 694;
    
+ 
+ 
 }
 img{
     border-radius: 60%;
