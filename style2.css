@@ -7,8 +7,8 @@ body{
 .hoja{
 margin-top: 1px;
 margin-bottom: 0;
-margin-left:5rem ;
-margin-right: 5rem;
+margin-left:14rem ;
+margin-right: 14rem;
 background-color: white;
 font-size: 10px;
 font-family: Arial, Helvetica, sans-serif;
@@ -26,12 +26,13 @@ font-family: Arial, Helvetica, sans-serif;
 img{
 width: 80px; 
 margin-top:20px;
-margin-right: 20px;
+margin-right: 45px;
 float: right;
 
 }
 .texto1{
     padding-top: 100px;
+    margin-right: 20px;
 }
 table{
     border-collapse: collapse;
@@ -44,16 +45,63 @@ table th{
     background-color: yellow;
 }
 
-.hoja table td, th{
+.hoja table  th{
     
     border: 1px solid black;
-    padding: 5px;
-   
+    padding: 5px;  
 
 }
-
+.hoja table td{
+border: 1px solid orangered;
+padding:5px;
+}
+table tr:nth-child(even){
+    background-color: rgba(214, 138, 110, 0.582);
+}
 .numero{
     text-align: center;
 }
+
+.texto2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.texto3{
+    font-size: 16;
+    text-align: center;
+
+}
+.tit{
+padding-top: 1rem;
+margin-bottom: 0;
+
+}
+.texto4{
+padding-left: 3rem;
+line-height: 1.5rem;
+padding-right: 3rem;
+text-align: justify;
+margin-top: 0;
+
+
+}
+.tit2{
+    color: green;
+    padding-bottom: 4rem;
+}
+.tit2 a{
+    color:yellow;
+    background-color: red;
+    padding:5px;
+    margin-left: 2px;
+    border-radius: 5px;
+    padding-left: .8rem;
+    padding-right: .8rem;
+   
+}
+
+
 
 
