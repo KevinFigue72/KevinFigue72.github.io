@@ -1,27 +1,26 @@
 body{
     background-color: rgb(175, 156, 156);
+    
+    display: grid;
 
 
 }
 
-
-.top{
-     
-     background-color: rgb(197, 178, 113);
- 
-     border-top-left-radius: 100px;
-     border-bottom-left-radius:100px ;
-
-     
+header{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 140px;
+    background-color: rgb(197, 178, 113);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:100px ;
 }
 
+header p{
+font-size: 3rem;
+}
 .sub1{
     background-color: rgb(14, 55, 170);
-    margin-right: 300px;
-    margin-left: 300px;
-    min-width: none;
-    text-align: center;
-    align-items: center;
+   
     color: white;
 
   
@@ -31,46 +30,50 @@ body{
 
 .div1{
     background-color: rgb(92, 117, 184);
-    margin-right: 300px;
-    margin-left: 300px;
     border-radius: 30px;
     border-top-left-radius: 0;
-    text-align: center;
-    align-items: center;
     border-top-right-radius: 0;
 
    
 
 }
+section{
+   display: grid;
+   grid-template-columns: 1fr , 1fr, 1fr;
+   
 
+   
+}
 
 
 .div2{
     background-color: rgb(92, 117, 184);
-    margin-right: 300px;
-    margin-left: 300px;
     border-radius: 30px;
-    text-align: center;
-
-   
+    
     
 }
 .div3{
     background-color:rgb(197, 178, 113) ;
-     text-align: center;
-    margin-right: 300px;
-    margin-left: 300px;
+  
+    
     
 
 }
 .div3 table ,th,td{
    border: 1px solid rgba(19, 18, 18, 0.486);
-   width: 694;
-   
- 
  
 }
 img{
     border-radius: 60%;
+}
+#div1{
+    
+grid-area: p;
+}
+#div2{
+    grid-area: i;  
+}
+#div3{
+    grid-area: e;
 }
 

@@ -1,0 +1,75 @@
+body{
+    
+    background-color: white;
+   
+
+}
+
+main{
+    display: grid;
+    grid-area: 
+    
+    "s as"
+    "f f";  
+
+
+}
+
+header{
+     grid-area: h;
+    background-color:orangered ;
+
+
+}
+header .img{
+    width: 2rem;
+    background-color: pink;
+}
+
+.text p{
+ background-color: blueviolet;
+}
+section{
+   display: grid;
+    grid-area: s;
+    background-color: yellow;
+
+}
+
+
+ div#artic{
+    display: grid;
+    grid-area:
+    "t1 t2" 
+    "t3 t4";
+
+}
+
+
+ #texto1{
+    grid-area: t1;
+}
+ #texto2{
+    grid-area: t2;
+}
+
+ #texto3{
+    grid-area: t3;
+}
+
+ #texto4{
+    grid-area:t4 ;
+}
+
+aside{
+    grid-area: as;
+    background-color: gray;
+
+}
+
+
+footer{
+    grid-area: f;
+    background-color: rgb(23, 23, 180);
+
+}
